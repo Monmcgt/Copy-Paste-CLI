@@ -31,10 +31,10 @@ def select_mode():
         i = input("Please select mode (copy/paste) > ").lower()
         if i == "c" or i == "copy":
             mode = "copy"
-            break;
+            break
         elif i == "p" or i == "paste":
             mode = "paste"
-            break;
+            break
         else:
             print("Invalid value.")
 
